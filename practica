@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-dark">
+        <div class="container-fluid bg-dark fixed-top">
+         <nav class="navbar navbar-expand-md navbar-dark bg-dark container">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://pbs.twimg.com/profile_images/1047923117086007296/xQMgPGEH_400x400.jpg" alt="" width="50" height="40" class="d-inline-block align-text-top">
+                    Monster
+                     </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mr-5">
+                      <li class="nav-item active">
+                        <a class="nav-link active" aria-current="page" href="#">SPORTS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">NOTICIAS</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         ATHLETICS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">PRODUCTOS</a></li>
+                          <li><a class="dropdown-item" href="#">PROMOCIONES</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">MUSICA</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+                      
+              </div>
+            </div>
+      </nav>
+    </div>  <!--NAVBAR-->
+        <!--SLIDER-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/06/06202341/monster-energy-drink.jpg" class="img=fluid" class="d-block w-100" alt="" width="1600" height="640" class="">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.gimnasiosigueiro.com/sites/default/files/field/image/E0XU34PXMAAlJ78.jpg" class="img=fluid" class="d-block w-100" alt=""width="1600" height="640" class="">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://com-coca-cola-latamclientes-website-content-prod.s3.amazonaws.com/home-delivery/energizante.jpg" class="img=fluid" class="d-block w-100" alt=""width="1600" height="640" class="">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>        <!--SLIDER-->
+
+
+
+<section class="container my-5">
+  <h2 class="display-4 text-center text-white">Monster Energy </h2>
+
+        <p class="lead text-center my-4 text-info">Una energy drink de sabor muy agradable y cuyo tamaño (500 ml) multiplica por 2,5 a la cantidad de producto que encontramos en las latas estándar de producto. Un producto levemente diferenciado en sabor a lo que se puede encontrar en el mercado, muy bien rematado especialmente para mezclarlo con bebidas alcohólicas y que promete dar guerra.El color de Monster Energy es muy similar al del resto de energy drinks en un tono levemente oscuro. En nariz las notas aparecen las típicas notas medicinales pero más diluídas y con toques de fruta blanca: melón y manzana y toques de chicle. En boca, la nota principal es de bebida energética pero a medida que desaparece esta primera entrada, aparecen notas más afrutadas (frutas rojas) y chucherías junto con notas levemente vegetales (ginseng).</p>
+
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  
+  <div class="col-md-4 mb-2">
+    <div class="card h-100">
+      <img src="https://media.istockphoto.com/photos/monster-beverage-display-ii-picture-id587878732" class="card-img-top" alt=""width="100" height="300" class="">
+      <div class="card-body ">
+         <center><h5 class="card-title">MONSTER ENERGY</h5></center>
+        <p class="card-text">Esta energy drink comienza su andadura por nuestro mercado con tres variedades , las cuales iremos comentando en LoCatamos: Monster Energy , Monster Energy Lo-Carb (baja en calorías) y la novedosa Monster Ripper (mezcla de energy drink y zumo).</p>
+        <center><button class="btn btn-dark text-center">Mas informacion</button></center>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-2">
+    <div class="card h-100">
+      <img src="https://pbs.twimg.com/media/EXldkILXYAECz30.jpg" class="card-img-top" alt=""width="100" height="300" class="">
+      <div class="card-body bg-dark border-dark">
+         <center><h5 class="card-title text-white ">MONSTER ENERGY</h5></center>
+       <p class="card-text text-white">Monster Energy se diferencia del resto de energy drinks del mercado por su sabor y por contener en su fórmula ginseng y L-carnitina junto al resto de “ingredientes energéticos” (cafeína, taurina, vitaminas del grupo B).</p>
+        <center><button class="btn btn-black text-white ">Mas informacion</button></center>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 md-2">
+    <div class="card h-100">
+      <img src="https://www.marketing4food.com/wp-content/uploads/2020/02/Monster-e1408449586919.jpg" class="card-img-top" alt=""width="100" height="300" class="">
+      <div class="card-body">
+        <center> <h5 class="card-title">MONSTER ENERGY</h5></center>
+        <p class="card-text">Lo primero que nos sorprende es el tamaño de la lata de Monster Energy : medio litro de energy drink! La lata es de color negro y  tiene su logotipo en color verde chillón: una letra eme que simula un desgarro hecho por un monstruo, la cual se puede ver en el mono de piloto de F1 Janson Button.</p>
+        <center><button class="btn btn-dark">Mas informacion</button></center>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="container">
+        <h2 class="display-4 text-center text-white">Monster X-presso </h2>
+
+        <p class="lead text-center my-4 text-info"> Monster con sabor a café en una gama de latas más pequeña y de sabor más intenso.Latas de 355 ml con el mismo contenido energético que las latas de 500 ml. Toda la gama Nitrous se caracteriza por un sabor suave y cremoso en todas las versiones y a la vez una carbonatación intensa con mucho gas concentrado pero sin el sabor característico y el picazón que produce la carbonatación en las bebidas.</p>
+        <div class="row">
+          <div class="col-md-6">
+            
+
+                            <div class="accordion" id="accordionExample bg-dark">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button text-white bg-dark rounded-0 border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Monster Energy
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Monster Energy (Sabor clásico) [Lata Negra, Logo Verde]</p>
+<p>Monster Absolutely Zero (Sabor clásico aunque más suave, cero azúcares) [Lata con tonos azulados, Logo Negro]</p>
+<p>Monster Assault (Sabor cola/cereza) [Lata Gris y Negra, Logo Rojo]</p>
+<p>Monster Khaos (Sabor de zumo de frutas: naranja, manzana, melocotón, mandarina, piña y uva) [Lata gris, Logo naranja sobre fondo negro]</p>
+<p>Monster Ripper/M-80 (Sabor zumo de frutas: manzana, maracuyá y piña) [Lata gris, Logo Amarillo sobre fondo negro]</p>
+<p>Monster Mixxd (Sabor zumo de frutas: Manzana y uva roja) [Lata gris, Logo Violeta sobre fondo negro]</p>
+<p>Monster Lewis Hamilton (Sabor a bebida energética normal pero más suave) [Lata roja con textura y logotipo negro con contorno amarillo. Detalles de estos mismos colores]</p>
+<p>Monster Gronk (Sabor clásico) [Lata fondo plateado y logo azul inspirada en el jugador de fútbol americano Gronk]</p>
+<p>Monster Übermonster (Sabor clásico con un toque distinto, elaborado igual que las cervezas alemanas pero sin alcohol) [Botella verde de vidrio o lata de 553 ml, con dibujos dorados y dos hipogrifos]</p>
+<p>Monster Dub Edition/Punch Mad Dog (Por determinar, algunos dicen que sabe a uva, aunque no lo lleva en los ingredientes. La diferencia con la Monster Energy normal es que lleva extracto de té verde y extracto de mate) [Lata negra con un escudo de tonos metálicos y morados con el logo dorado]</p>
+<p>Monster Dub Edition/Punch Mad Dog (Sabor a cereza) [Lata negra con un escudo de tonos metálicos y morados con el logo dorado]</p>
+<p>Monster Import (Sabor nuevo, distinto al clásico) [Lata negra, un escudo con un águila con el logo en verde]</p>
+<p>Monster Import Light (Sabor de Monster Import en su versión light) [Lata negra, un escudo con un águila con el logo en azul celeste]</p>
+<p>Monster Export (Sabor clásico) [Lata negra con logo en verde similar a la clásica, pero de 250 ml]</p>
+<p>Monster M3 (Clásico, ultraconcentrado, la cantidad de energizantes de 500 ml concentrados en 147 ml) [Botellita transparente verde, el logo verde con un 3 como exponente (M3)]</p>
+<p>Monster Zero Ultra (Sabor ligero, sin azúcar, sin calorías; se menciona que el sabor es todo lo contrario al original, pero con la mezcla tradicional de Monster Energy. Tira a naranja) [Lata blanca con textura elegante en plata y logo en plata. Lata rugosa]</p>
+
+<p>Monster Ultra Blue (Sabor indefinido. Dulce con un toque a cítrico) [Lata celeste y con el logo plateado. La lata tiene un tacto rugoso]</p>
+<p>Monster Ultra Red (Cero calorías y cero azúcares, sabor frutos rojos) [Lata roja y con el logo plateado, lata con tacto rugoso]</p>
+<p>Monster Ultra Sunrise (Cero calorías y cero azúcares, sabor a naranja) [Lata naranja con decoración plateada y con el logotipo plateado. Lata con tacto rugoso]</p>
+<p>Monster Ultra Citron (Cero calorías y cero azúcares, sabor a cítricos) [Lata amarilla y logo plateado, lata con tacto rugoso]</p>
+<p>Monster Ultra Black (Cero calorías y cero azúcares, sabor a cereza) [Lata negra con detalles rojos y logo plateado, lata con tacto rugoso]</p>
+<p>Monster Unleaded (Clásico sabor) [Lata gris y logo verde con borde negro]</p>
+<p>Monster Cuba Lima (Sabor a lima-limón) [Lata negra y logo negro con borde verde]</p>
+<p>Monster B F C (Sabor original, lata negro y logo en verde o azul celeste)</p>
+<p>MegaMonster () [Lata negra con logo en verde similar a la clásica, pero de 553 ml]</p>
+<p>Monster Heavy Metal (Sabor desconocido) [Lata verde, logo plateado y un dibujos negros]</p>
+<p>Monster Pacific Punch (Sabor zumo de frutas: Manzana, naranja, frambuesa, cereza, piña y maracuyá) [Lata color crema con dibujos de temática pirata y logo rojo]</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed text-white bg-dark rounded-0 border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Monster Ultra
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <p> Monster sin calorías y cero azúcares.</p>
+
+
+<p>Monster Ultra Black (Cero calorías y cero azúcares, sabor a cereza) [Lata negra con detalles rojos y logo plateado, lata con tacto rugoso]</p>
+
+<p>Monster Ultra Rosa (Cero calorías y cero azúcares, sabor frambuesa, arándano y limonada) [Lata rosa y con el logo plateado, lata con tacto rugoso]</p>
+
+<p>Monster Ultra Red (Cero calorías y cero azúcares, sabor frutos rojos) [Lata roja y con el logo plateado, lata con tacto rugoso]</p>
+
+<p>Monster Ultra Sunrise (Cero calorías y cero azúcares, sabor a naranja) [Lata naranja con decoración plateada y con el logotipo plateado. Lata con tacto rugoso]</p>
+
+<p>Monster Ultra Citron (Cero calorías y cero azúcares, sabor a cítricos) [Lata amarilla y logo plateado, lata con tacto rugoso</p>
+
+<p>Monster Ultra Fiesta (Cero calorías y cero azúcares, sabor mango con un toque cítrico) [Lata turquesa y con el logo plateado, lata con tacto rugoso]</p>
+
+<p>Monster Ultra Violet (Cero calorías y cero azúcares, sabor suave e indefinido, similar a la mora) [Lata violeta y logo plateado lata con tacto rugoso]</p>
+
+<p>Monster Zero Ultra (Sabor ligero, sin azúcar, sin calorías; se menciona que el sabor es todo lo contrario al original, pero con la mezcla tradicional de Monster Energy. Tira a limón) [Lata blanca con textura elegante en plata y logo en plata. Lata rugosa]</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed text-white bg-dark rounded-0" type="button bg-dark border-dark" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Java Monster
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                                               <p>Monster con sabor a café.<p>
+
+<p>Java Monster Toffee (Sabor café cremoso y acaramelado) [Lata Marrón oscuro con textura amaderada y logo dorado]</p>
+<p>Java Monster Irish Blend (Sabor café irlandés, pero sin alcohol -un café irlandés se prepara con café, whisky, azúcar y crema-) [Lata Verde Lima y logo dorado]</p>
+<p>Java Monster Loca Moca (Sabor café con leche o crema, sabor suave) [Lata marrón claro pálido con textura amaderada y logo dorado]</p>
+<p>Java Monster Mean Bean (Sabor café con leche o crema, sabor más suave que el Loca Moca) [Lata Marrón muy claro y pálido, casi dorado con textura amaderada y logo dorado]</p>
+<p>Java Monster Vanilla Light (Sabor café con leche con un toque de vainilla) [Lata blanca, logo dorado]</p>
+<p>Java Monster Kona Blend (Sabor café con un toque de chocolate, elaborado con café de importación hawaiana) [Lata con temática de selva, fondo negro y logo color bronce]</p>
+<p>Java Monster Kona Cappuccino</p>
+<p>Java Monster Cappuccino (Sabor café cappuccino) [Lata color crema con logotipo negro oscuro y motivos Hawaianos]</p>
+<p>Java Monster Salted Caramell (Sabor café con toque acaramelado muy dulce) [Lata color caramelo amaderada y logotipo marrón oscuros, con detalles marrones oscuros a los laterales]</p>
+<p>Java Monster Big Black</p>
+<p>Java Monster Originale</p>
+<p>Java Monster Nut-up</p>
+<p>Java Monster Lo-Ball</p>
+<p>Java Monster Russian</p>
+<p>Java Monster Chai-Hai</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+
+
+<div class="col-md-6">
+
+<img src="images/MONST.png" class="img=fluid" width="650" height="300">
+<ul class="list-group">
+  <li class="list-group-item active bg-dark rounded-0 border-dark" aria-current="true">Nuevos sabores</li>
+  <li class="list-group-item">Rehab</li>
+  <li class="list-group-item">Muscle Monster</li>
+  <li class="list-group-item">Monster Juice</li>
+  <li class="list-group-item">Monster Hydro</li>
+</ul>
+  </div>
+
+<div class="jumbotron">
+  <div class="container text-white">
+
+  <h1 class="display-4">MUY PRONTO NUEVAS OPORTUNIDADES!!</h1>
+  <p class="lead">Esta es una pagina con alguna informacion sobre esta bebida energisante /p>
+  <hr class="my-4">
+  <p>INGENIERIA EN SISTEMAS14542-8 EST:JANETH MAIRA PARI CALIZAYA</p>
+  <p class="lead">
+  <a class="btn btn-primary btn-lg" href="#" role="button">volver</a>
+  </p>
+             </div>
+             </div>
+            </div>
+          </div>
+        </div>
+</section>
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
